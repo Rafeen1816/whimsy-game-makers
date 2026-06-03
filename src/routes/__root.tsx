@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Fruit Catcher" },
+      { name: "description", content: "Create and publish interactive games for children aged 6-10, transforming your ideas into playable mobile experiences." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Fruit Catcher" },
+      { property: "og:description", content: "Create and publish interactive games for children aged 6-10, transforming your ideas into playable mobile experiences." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Fruit Catcher" },
+      { name: "twitter:description", content: "Create and publish interactive games for children aged 6-10, transforming your ideas into playable mobile experiences." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/340c3069-e406-40bc-b4d8-66af2c1ee805/id-preview-c471680c--f5e8ede3-6757-4db0-918c-3e68eb22036a.lovable.app-1780216413866.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/340c3069-e406-40bc-b4d8-66af2c1ee805/id-preview-c471680c--f5e8ede3-6757-4db0-918c-3e68eb22036a.lovable.app-1780216413866.png" },
     ],
     links: [
       {
